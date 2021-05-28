@@ -1,0 +1,205 @@
+*{
+	margin: 0px;
+	left: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Redressed', cursive;
+
+ }
+
+ h1{
+ 	font-size: 4em;
+
+ }
+
+ li{
+ 	font-size: 1.5em;
+ }
+
+p{
+	font-size: 2em;
+}
+
+.table{
+	display: inline-block;
+}
+
+ header{
+ 	position: sticky;
+ 	display: flex;
+ 	height: 70px;
+ 	width: 100%;
+ 	background-color: rgb(142,147,91);
+ }
+
+ header div img{
+ 	height: 59;
+ 	width: 188px;
+ 	margin: 2px;
+ 	border-radius: 2px;
+ 	opacity: 1.3 ;
+
+ }
+ header nav{
+ 		margin-left: 48px;
+		margin-top: 26px;
+		padding-left: 35px;
+		 }
+
+ header nav a{
+ 	 	margin: 12px 6px;
+ 		padding: 6px 36px;
+ 		text-decoration: none;
+ 		color: white;
+ 		font-size: larger;
+
+ }
+
+ img.i-01{
+ 	height: 100%;
+ 	width: 100%;
+ 	opacity: 1.8;
+ }
+
+ #about{
+ 	
+ 	position: absolute;
+	justify-content: center;
+	color: whitesmoke;;
+	margin-left: 426px;
+	margin-top: 309px;
+	margin-right: 424px;
+}
+
+ #bn{
+ 	text-align: center;
+ 	width:121px;
+ 	height:33px;
+ 	background-color: lightpink;
+ 	border-radius: 10px;
+ 	margin:20px 237px ;
+ 	padding:auto;
+ }
+
+ #menu{
+ 	position: absolute;
+ 	background: pink;
+ 	height: 396px;
+ 	width: 100%;
+ }
+
+ img.i-02{
+ 	height: 396px;
+ 	width: 24%;
+
+ }
+
+ .table{
+ 	position: absolute;
+ 	left: 530px;
+ 	margin: 51px;
+ }
+
+ /*-----------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+------------------------------delivery.css--------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+.container{
+	width: 100%;
+	height: 500px;
+
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	justify-content: space-around;
+	align-items: center;
+	
+
+}
+
+
+.item{
+
+	flex-basis: 26%;
+}
+
+#i1{
+	width: 63%
+}
+
+#i2{
+	width: 85%
+}
+#i3{
+	width: 45%
+}
+
+/*-----------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+------------------------------menu.css--------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+
+#f2k{
+	display: inline-block;
+	width: 100%;
+	margin-top: 45px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+------------------------------contact.css--------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
+
+
+.fm{
+	text-align: center;
+	justify-content: center;
+	font-family: 'Xanh Mono', monospace;font-family: 'Hanalei Fill', cursive;
+	position: absolute;
+	color: black;
+}
+
+.fm2{
+	margin-left: 456px;
+	margin-top: 85px;
+}
+
+input,textarea{
+	width: 241px;
+	padding: 5px;
+	margin: 15px;
+	display: inline-block;
+}
+
+#f5{
+	background-color:  rgb(25,35,52);
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	
+}
+
+section div button{
+    margin: 16px;
+    padding: 13px;
+    background-color: indigo;
+    width: 45%;
+    color: white;
+    border-radius: 26px;
+    font-size: 1.2em;
+}
+
+/*-----------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+------------------------------End Of The Project--------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
